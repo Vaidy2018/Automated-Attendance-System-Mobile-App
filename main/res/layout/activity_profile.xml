@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.internshala.helloworld.ongcattendance.Profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="5dp"
+            android:layout_alignParentTop="true"
+            android:background="#a03131"
+            android:textStyle="bold"
+             />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:id="@+id/textView28"
+            android:layout_marginTop="210dp"
+            android:textColor="#000000"
+            android:layout_below="@+id/button11"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="CPF :"
+            android:id="@+id/textView29"
+            android:layout_below="@+id/textView28"
+            android:layout_alignStart="@+id/textView28"
+            android:layout_marginTop="26dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Mobile :"
+            android:id="@+id/textView30"
+            android:layout_below="@+id/textView29"
+            android:layout_alignStart="@+id/textView29"
+            android:layout_marginTop="26dp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Group:"
+            android:id="@+id/textVie31"
+            android:layout_below="@+id/textView30"
+            android:layout_alignStart="@+id/textView30"
+            android:layout_marginTop="26dp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Team :"
+            android:id="@+id/textView32"
+            android:layout_below="@+id/textVie31"
+            android:layout_alignStart="@+id/textVie31"
+            android:layout_marginTop="26dp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView31"
+            android:textSize="12dp"
+            android:layout_alignBaseline="@+id/textView28"
+            android:layout_toEndOf="@+id/textView28"
+            android:layout_marginStart="32dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textSize="12dp"
+            android:id="@+id/textView34"
+            android:layout_above="@+id/textView30"
+            android:layout_alignStart="@+id/textView31" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textSize="12dp"
+            android:inputType="phone"
+            android:id="@+id/textView35"
+            android:layout_alignBaseline="@+id/textView30"
+            android:layout_alignStart="@+id/textView34" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView36"
+            android:layout_alignTop="@+id/textVie31"
+            android:layout_alignStart="@+id/textView35" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView37"
+            android:layout_alignBottom="@+id/textView32"
+            android:layout_alignStart="@+id/textView36" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:id="@+id/button11"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:textSize="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:id="@+id/button12"
+            android:layout_above="@+id/textView28"
+            android:layout_alignParentEnd="true"
+            android:textSize="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/button14"
+            android:layout_marginTop="22dp"
+            android:layout_below="@+id/textView37"
+            android:layout_alignStart="@+id/button15" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView6"
+            android:background="#c7baba"
+            android:layout_below="@+id/button11"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/user" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Upload"
+            android:id="@+id/button15"
+            android:layout_below="@+id/imageView6"
+            android:layout_centerHorizontal="true"
+            android:background="#0091eb"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ONGC Attendance</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="Folder">http://192.168.1.100/naya2/</string>
+    <string name="title_activity_sample">sample</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
