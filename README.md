@@ -1,1 +1,2 @@
 # Automated-Attendance-System-Mobile-App
+This is an android application of Automated Attendance System using mobile over wi-fi. This Application is an attendance monitoring system based on the concept of Wi-Fi which is implemented as a Android Mobile Application that communicates with the database residing on a remote Server. The mobile application would require connecting to the database using Wi-Fi Technology. 
